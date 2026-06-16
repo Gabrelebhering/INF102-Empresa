@@ -1,0 +1,12 @@
+{
+  "name": "Empresa C++ PostgreSQL",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libpqxx-dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
